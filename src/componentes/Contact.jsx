@@ -1,5 +1,9 @@
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaSquareTwitter } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -18,9 +22,45 @@ const Contact = () => {
         transition={{ duration: 2 }}
         className="text-center tracking-tighter"
       >
-        <p className="my-4">{CONTACT.address}</p>
+        <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+          <motion.a
+            whileHover={{ y: -10 }}
+            initial={{ y: 0 }}
+            href={CONTACT.linkedIn}
+            target="_blank"
+          >
+            <FaLinkedin />
+          </motion.a>
+          <motion.a
+            whileHover={{ y: -10 }}
+            initial={{ y: 0 }}
+            href={CONTACT.github}
+            target="_blank"
+          >
+            <FaGithub />
+          </motion.a>
+          <motion.a
+            whileHover={{ y: -10 }}
+            initial={{ y: 0 }}
+            href={CONTACT.x}
+            target="_blank"
+          >
+            <FaSquareTwitter />
+          </motion.a>
+          <motion.a
+            whileHover={{ y: -10 }}
+            initial={{ y: 0 }}
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT.email}`}
+            target="_blank"
+          >
+            <SiGmail />
+          </motion.a>
+        </div>
         <p className="my-4">{CONTACT.phoneNo}</p>
-        <a href="#" className="border-b">
+        <a
+          href={`https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT.email}`}
+          className="border-b"
+        >
           {CONTACT.email}
         </a>
       </motion.div>

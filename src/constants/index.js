@@ -3,38 +3,18 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Versatile Mobile Developer with a proven track record in cross-platform development, specializing in Android and iOS applications. With over 2 years of hands-on experience in the mobile development ecosystem, I bring expertise in creating robust, user-centric mobile solutions.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `As a developer who bridges the Android-iOS divide, I bring a unique perspective to mobile development. My experience with KMM allows me to create efficient, maintainable codebases that work seamlessly across platforms while maintaining native performance and user experience. I combine technical expertise with a strong focus on delivering high-quality, user-friendly applications that meet both business objectives and user needs.
+I am passionate about staying current with mobile development trends and best practices, constantly expanding my skill set to deliver innovative solutions in this rapidly evolving field.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2022 - Present",
+    role: "Android Developer",
+    company: "Grewon Technologies",
+    description: `Design, developed and maintained android applications using Kotlin and Java. Worked closely with backend developers to integrate API in PHP, Python(Django) and Node.js. Worked on apps to control IoT devices.Impemented respoinsive designs to fit all android devices as well as tablets. optimised app perfomance.`,
+    technologies: ["Kotlin", "Java", "Compose", "KMM", "Firebase", "gradle"],
   },
 ];
 
@@ -71,6 +51,9 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+91 8200553608",
+  email: "arjeshvadadoriya@gmail.com",
+  linkedIn: "https://www.linkedin.com/in/arjesh-vadadoriya/",
+  github: "https://github.com/arjesh-vadadoria/",
+  x: "https://x.com/arjesh_",
 };
